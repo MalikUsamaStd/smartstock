@@ -1,4 +1,4 @@
-// src/routes/products.routes.ts
+﻿// src/routes/products.routes.ts
 //
 // URL -> controller mapping for /api/products.
 
@@ -7,6 +7,8 @@ import {
   getAllProducts,
   getProductByIdHandler,
   createProductHandler,
+  updateProductHandler,
+  deleteProductHandler,
 } from "../controllers/products.controller";
 
 const router = Router();
@@ -14,5 +16,7 @@ const router = Router();
 router.get("/", getAllProducts);
 router.get("/:id", getProductByIdHandler);
 router.post("/", createProductHandler);
+router.put("/:id", updateProductHandler);
+router.delete("/:id", deleteProductHandler);
 
 export default router;

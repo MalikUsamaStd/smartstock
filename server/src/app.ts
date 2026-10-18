@@ -32,12 +32,10 @@ export function createApp() {
   });
 
   // Centralized error handler — must have 4 args to be recognized by Express
-  app.use((err: unknown, _req: Request, res: Response, _next: NextFunction) => {
-    console.error("Unhandled error:", err);
-    const message =
-      err instanceof Error ? err.message : "Internal server error";
-    res.status(500).json({ error: message });
-  });
+ app.use((err: unknown, _req: Request, res: Response, _next: NextFunction) => {
+  console.error("Unhandled error:", err);
+  res.status(500).json({ error: "Internal server error" });
+});
 
   return app;
 }
