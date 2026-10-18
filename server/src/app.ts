@@ -8,6 +8,7 @@ import cors from "cors";
 import type { Request, Response, NextFunction } from "express";
 import productsRouter from "./routes/products.routes";
 import suppliersRouter from "./routes/suppliers.routes";
+import customersRouter from "./routes/customers.routes";
 
 export function createApp() {
   const app = express();
@@ -27,6 +28,7 @@ export function createApp() {
   // Feature routes
   app.use("/api/products", productsRouter);
   app.use("/api/suppliers", suppliersRouter);
+  app.use("/api/customers", customersRouter);
 
   // 404 handler — runs only if no route above matched
   app.use((_req, res) => {
