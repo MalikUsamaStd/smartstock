@@ -10,7 +10,7 @@ Manage products, suppliers, inventory, and orders.
 
 - PostgreSQL
 - Node.js and Express
-- React
+- React and
 - Git and GitHub
-- Docker
-- GitHub Actions
+- Dockers and
+- GitHub Actions and workflows
