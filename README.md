@@ -12,5 +12,5 @@ Manage products, suppliers, inventory, and orders.
 - Node.js and Express
 - React
 - Git and GitHub
-- Docker
+- Dockers
 - GitHub Actions
