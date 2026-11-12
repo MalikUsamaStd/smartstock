@@ -13,4 +13,4 @@ Manage products, suppliers, inventory, and orders.
 - React and
 - Git and GitHub
 - Dockers and
-- GitHub Actions
+- GitHub Actions and workflows
