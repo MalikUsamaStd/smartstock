@@ -14,4 +14,4 @@ Manage products, suppliers, inventory, and orders.
 - Git and GitHub
 - Docker
 - GitHub Actions
-- contributer! Muhammad Furqan
+- Contributor: Muhammad Furqan
