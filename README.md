@@ -16,3 +16,4 @@ Manage products, suppliers, inventory, and orders.
 - GitHub Actions and workflows
 ## Contributors
 - Contributor: Muhammad Saleh
+- Contributor: Shayan Abbas
