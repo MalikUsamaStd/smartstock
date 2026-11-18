@@ -14,3 +14,4 @@ Manage products, suppliers, inventory, and orders.
 - Git and GitHub
 - Dockers and
 - GitHub Actions and workflows
+- Contributor: Muhammad Umar Shah
